@@ -10,9 +10,6 @@
 # Aliases
 [[ -f ~/.zsh/aliases.zsh ]] && source ~/.zsh/aliases.zsh
 
-# hub
-[[ -f ~/.zsh/hub.zsh ]] && source ~/.zsh/hub.zsh
-
 # nvm
 [[ -f ~/.zsh/nvm.zsh ]] && source ~/.zsh/nvm.zsh
 
