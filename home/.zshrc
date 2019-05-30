@@ -16,5 +16,11 @@
 # nvm
 [[ -f ~/.zsh/nvm.zsh ]] && source ~/.zsh/nvm.zsh
 
-# rbenv
-[[ -f ~/.zsh/rbenv.zsh ]] && source ~/.zsh/rbenv.zsh
+# rvm
+[[ -f ~/.zsh/rvm.zsh ]] && source ~/.zsh/rvm.zsh
+
+# vscode
+[[ -f ~/.zsh/vscode.zsh ]] && source ~/.zsh/vscode.zsh
+
+# docker
+[[ -f ~/.zsh/docker.zsh ]] && source ~/.zsh/docker.zsh
