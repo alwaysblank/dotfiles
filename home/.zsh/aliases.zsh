@@ -1,15 +1,3 @@
-# Shortcuts
-alias home='cd ~'
-alias storage='cd ~/Storage'
-alias desktop='cd ~/Desktop'
-alias dev='cd ~/Development'
-alias sites='cd ~/Development/web/'
-alias master='cd ~/Development/git/master'
-alias forks='cd ~/Development/git/forks'
-
-# Apps
-alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-
 # Replacements
 [[ -x "$(command -v exa)" ]] && alias ls='exa -la'
 [[ -x "$(command -v bat)" ]] && alias cat='bat'
@@ -36,13 +24,8 @@ alias ips="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[
 # Show active network interfaces
 alias ifactive="ifconfig | pcregrep -M -o '^[^\t:]+:([^\n]|\n\t)*status: active'"
 
-
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
-
-# Valet
-alias v='valet link && valet park && valet secure'
-alias uv='valet unlink && valet forget && valet unsecure'
 
 # Laravel
 alias art='php artisan'
