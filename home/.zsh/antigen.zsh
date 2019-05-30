@@ -1,5 +1,4 @@
 [[ -f /usr/local/share/antigen/antigen.zsh ]] && source /usr/local/share/antigen/antigen.zsh
-[[ -f /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh ]] && source /home/linuxbrew/.linuxbrew/share/antigen/antigen.zsh
 
 # Load the oh-my-zsh library.
 antigen use oh-my-zsh

@@ -2,7 +2,7 @@
 DISABLE_AUTO_UPDATE="true"
 
 # Default User
-DEFAULT_USER="brandon"
+DEFAULT_USER="ben"
 
 # Disable autocorrection
 DISABLE_CORRECTION="true"
