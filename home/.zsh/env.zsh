@@ -14,6 +14,13 @@ export TZ="America/LosAngeles"
 export PATH="/usr/local/sbin:${PATH}"
 export PATH="${HOME}/.local/bin:${PATH}"
 
+# Linux Brew if not on macOS.
+[[ -d ~/.linuxbrew ]] && eval $(~/.linuxbrew/bin/brew shellenv)
+[[ -d /home/linuxbrew/.linuxbrew ]] && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+# GNU Command Line Tools.
+[[ -x "$(command -v brew)" ]] && export PATH="$(brew --prefix coreutils)/libexec/gnubin:${PATH}"
+
 # Dotfiles location.
 [[ -x "$(command -v homesick)" ]] && export DOTFILES=`homesick show_path dotfiles`
 
