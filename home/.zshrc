@@ -1,5 +1,5 @@
-# Antigen
-[[ -f ~/.zsh/antigen.zsh ]] && source ~/.zsh/antigen.zsh
+# Load Plugins
+[[ -f ~/.zsh/loader.zsh ]] && source ~/.zsh/loader.zsh
 
 # Environment
 [[ -f ~/.zsh/env.zsh ]] && source ~/.zsh/env.zsh

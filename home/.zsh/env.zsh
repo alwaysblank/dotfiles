@@ -28,7 +28,7 @@ export PATH="${HOME}/.local/bin:${PATH}"
 export GLOBAL_COMPOSER_BIN="${HOME}/.composer/vendor/bin"
 
 # Global yarn bin.
-[[ -x "$(command -v yarn)" ]] && export GLOBAL_YARN_BIN="$(yarn global dir)/node_modules/.bin"
+# [[ -x "$(command -v yarn)" ]] && export GLOBAL_YARN_BIN="$(yarn global dir)/node_modules/.bin"
 
 # Local node modules bin.
 export LOCAL_NODE_MODULES_BIN="./node_modules/.bin"
