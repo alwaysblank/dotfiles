@@ -2,8 +2,8 @@
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR="nano"
 else
-  export EDITOR="code-insiders"
-  export VISUAL="code-insiders"
+  export EDITOR="vi"
+  export VISUAL="vi"
 fi
 
 # Central timezone.

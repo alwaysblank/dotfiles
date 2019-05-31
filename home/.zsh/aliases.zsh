@@ -45,3 +45,6 @@ alias g='jump'
 alias s='bookmark'
 alias d='deletemark'
 alias lm='showmarks'
+
+# Editing
+alias edit='code-insiders'
